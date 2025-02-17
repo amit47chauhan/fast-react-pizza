@@ -11,7 +11,7 @@ export default function AppLayout() {
       {isLoading && <Loader />}
       <Header />
       <div className="overflow-scroll">
-        <main className="mx-auto w-20 max-w-3xl">
+        <main className="mx-auto max-w-3xl">
           <Outlet />
         </main>
       </div>
